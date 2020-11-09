@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="container">
+      <div id="loader"></div>
+      <div id="game" class="hidden">
+        <header class="header">
+            <div class="hud">
+                <div class="hud__item">
+                    <p class="hud__text">Score</p>
+                    <p class="hud__score hud__text hud__text--big-size">0</p>
+                </div>
+                <div class="hud__item">
+                    <p class="hud__text">Question</p>
+                    <p class="hud__counter hud__text hud__text--big-size">1/5</p>
+                </div>
+            </div>
+            <h1 class="question">
+            </h1>
+        </header>
+        <section class="answer">
+            <div class="answer__container">
+                <p class="answer__prefix">A</p>
+                <p class="answer__text" data-number="1">
+                </p>
+            </div>
+            <div class="answer__container">
+                <p class="answer__prefix">B</p>
+                <p class="answer__text" data-number="2">Choice 2</p>
+            </div>
+            <div class="answer__container">
+                <p class="answer__prefix">C</p>
+                <p class="answer__text" data-number="3">Choice 3</p>
+            </div>
+            <div class="answer__container">
+                <p class="answer__prefix">D</p>
+                <p class="answer__text" data-number="4">Choice 4</p>
+            </div>
+        </section>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+
+</html>
